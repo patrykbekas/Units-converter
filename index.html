@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Units Converter</title>
+  
+        <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                <h1 class="display-4 text-center mb-4 app-title">What's Units do you convert? <span id="temp"></span></h1>
+
+                <div class="input-group input-group-lg">
+                    <label class="sr-only" for="mmInput">Enter units in milimeter</label>
+                    <input id="mmInput" type="number" class="form-control" placeholder="Enter number">
+                    <div class="input-group-addon starter">mm</div>
+                    <div class="input-group-addon result-a"><span id="mmToCm"></span>cm</div>
+                    <div class="input-group-addon result-a"><span id="mmToDm"></span>dm</div>
+                    <div class="input-group-addon result-a"><span id="mmToM"></span>m</div>
+                    <div class="input-group-addon result-a"><span id="mmToKm"></span>km</div>
+                </div>
+
+                <div class="input-group input-group-lg">
+                    <label class="sr-only" for="cmInput">Enter units in centimeter</label>
+                    <input id="cmInput" type="number" class="form-control" placeholder="Enter number">
+                    <div class="input-group-addon starter">cm</div>
+                    <div class="input-group-addon result-a"><span id="cmToMm"></span>mm</div>
+                    <div class="input-group-addon result-a"><span id="cmToDm"></span>dm</div>
+                    <div class="input-group-addon result-a"><span id="cmToM"></span>m</div>
+                    <div class="input-group-addon result-a"><span id="cmToKm"></span>km</div>
+                </div>
+
+                <div class="input-group input-group-lg">
+                    <label class="sr-only" for="dmInput">Enter units in decimeter</label>
+                    <input id="dmInput" type="number" class="form-control" placeholder="Enter number">
+                    <div class="input-group-addon starter">dm</div>
+                    <div class="input-group-addon result-a"><span id="dmToMm"></span>mm</div>
+                    <div class="input-group-addon result-a"><span id="dmToCm"></span>cm</div>
+                    <div class="input-group-addon result-a"><span id="dmToM"></span>m</div>
+                    <div class="input-group-addon result-a"><span id="dmToKm"></span>km</div>
+                </div>
+
+                <div class="input-group input-group-lg">
+                    <label class="sr-only" for="mInput">Enter units in meter</label>
+                    <input id="mInput" type="number" class="form-control" placeholder="Enter number">
+                    <div class="input-group-addon starter">m</div>
+                    <div class="input-group-addon result-a"><span id="mToMm"></span>mm</div>
+                    <div class="input-group-addon result-a"><span id="mToCm"></span>cm</div>
+                    <div class="input-group-addon result-a"><span id="mToDm"></span>dm</div>
+                    <div class="input-group-addon result-a"><span id="mToKm"></span>km</div>
+                </div>
+
+                <div class="input-group input-group-lg">
+                    <label class="sr-only" for="kmInput">Enter units in kilometer</label>
+                    <input id="kmInput" type="number" class="form-control" placeholder="Enter number">
+                    <div class="input-group-addon starter">km</div>
+                    <div class="input-group-addon result-a"><span id="kmToMm"></span>mm</div>
+                    <div class="input-group-addon result-a"><span id="kmToCm"></span>cm</div>
+                    <div class="input-group-addon result-a"><span id="kmToDm"></span>dm</div>
+                    <div class="input-group-addon result-a"><span id="kmToM"></span>m</div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <script  src="js/index.js"></script>
+    </body>
+</html>
